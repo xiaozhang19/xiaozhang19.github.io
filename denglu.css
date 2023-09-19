@@ -1,0 +1,53 @@
+@charset "utf-8";
+#ppbox{
+    height: 560px !important;
+}
+#ppbox input{
+    
+    display: block;
+    height:40px;
+    width: 260px;
+    margin: 0px 300px;
+    border: 2px #fff;
+    border-radius: 5px;
+    /* vertical-align:middle; */
+   
+}
+#zhanghao{
+    margin-top: 100px !important;
+}
+
+#ppbox div{
+   
+    margin-top: 20px;
+}
+#denglu input{
+    background-color: #034b9e;
+    color: #ffffff;
+}
+#denglu a{
+    text-align: center;
+    text-decoration: none;
+}
+#denglu input:hover{
+    /* color: #0b4485; */
+    background-color: #1767c4;
+}
+
+.wjmmbox{
+    display: inline-box;
+    margin-left: 320px;
+
+}
+
+.wjmm{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+.wjmmbox a:hover{
+     color: #1d51e0;
+}
+.wjmmbox a:active{
+    color: #1d51e0;
+}

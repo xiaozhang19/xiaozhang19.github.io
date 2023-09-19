@@ -1,0 +1,166 @@
+@charset "utf-8";
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+	text-decoration: none;
+	font-family: "Microsoft YaHei"; 
+    }
+    
+body{
+	margin: 0px;							/*设置外边距*/
+	padding: 0px; 				    		/*设置内边距*/
+	font-size:14px;                         /*设置页面所有文字的默认大小*/
+    box-sizing: border-box;						
+}
+#box1{
+	text-align:right;
+	line-height: 55px;
+}
+.logocolor{
+	background-color: #000000;
+}
+.logo{
+	height: 30px;
+	float: left;
+	padding: 6px 13px;
+}
+.youxiang{
+	padding-top: 10px;
+	padding-right:  15px;
+	text-align: center;
+	display: inline-block;
+	height: 60px;
+	width: 500px;
+	background-color: #000000;
+	line-height: 50px;
+	
+	
+}
+
+.youxiangspan{
+	padding-left: 10px;
+	color: #FFF;
+	width: 150px;
+	border: 2px solid #000000;
+}
+.youxianga{
+	padding-left: 10px;
+	/* padding-right: 12px; */
+	text-decoration: none;
+	color: #FFF;
+	
+}
+
+.youxiang span:hover{
+	color: #1d51e0;
+
+}
+
+#sosuospan:hover{
+	color: white !important;
+}
+
+.youxiang input{
+	/* border-left: 10px solid #FFF; */
+    height:30px;
+    width: 150px;
+	margin-right: 0;
+	padding-right: 0%;
+	/* float: left; */
+}
+
+#youxiangimg{
+	padding-left: 0px;
+	margin-left: 0;
+	margin-bottom: 2px;
+	width: 28px;
+	vertical-align: middle;
+	border: 2px solid #FFF;
+	/* border-left: 5px solid #FFF; */
+}
+
+.youxianga,#youxiangspan,#youxiang img{
+	line-height: 50px;
+}
+#nav {
+	width: auto;
+	height: 50px;
+	background-color: black;
+	padding-bottom: 10px;
+}
+
+#nav a {
+	padding-left: 36px;
+	
+	display: inline-block;
+	color:white;
+	font-family: "Microsoft YaHei"; 
+	font-size: 30px;
+	line-height: 44px;
+	text-decoration: none;
+}
+#nav a:hover{
+	/* color:  #1363dc; */
+	color: #1d51e0;
+	
+}
+/* #nav a:active{
+	color: #3aaa52;
+}
+#nav a:visited{
+	color: #771b42; 
+}*/
+#nav .selected a::after{
+	color: #1d51e0;
+}
+#video{
+	/*设置视频最小宽度和高度 这个设不设置没有什么影响 */
+	/*min-width: 100%;
+	min-height:100%;*/
+	/**/
+	
+	text-align: center top;
+	width: 100% ;
+	height: 100%;
+	/*生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。可以根据实际情况修改*/
+	/* position: absolute; */
+	/*这里我试了一下好像只要是矩形的四个角的的点都行,也就是说right:0;bottom:0;也可以*/
+	left: 0;
+	top: 0;
+	/*将视频放在元素的堆叠顺序最底层，以防覆盖其他东西*/
+	z-index: -1;
+	/*被替换的内容正好填充元素的内容框。整个对象将完全填充此框。如果对象的宽高比与内容框不相匹配，那么该对象将被拉伸以适应内容框。*/
+	object-fit: cover;
+     /* position:static;   */
+	 /* 视频定位方式设为固定 */
+	/* -webkit-filter: grayscale(10%); */
+	background-attachment:fixed;
+	position:absolute;
+
+}
+#kjqg{
+	
+	width: 1440px;
+	height: 100px;
+	background-color:rgba(0, 0, 0, 0.0);
+}
+#kjqg span{
+	color: #FFF;
+	font-size: 150px;
+	font-weight: 500px;
+	font-family: "STKaiti"; 
+	line-height: 330px;
+}
+#videobox{
+	
+	height: 330px;
+	width: 1440px;
+	position:absolute;
+	text-align: center;
+	/* vertical-align: middle; */
+	
+}
+
+
